@@ -21,8 +21,6 @@ It reflects core responsibilities of the R Module Tester role, such as:
 ## 🛠 Features & Structure
 
 - **Section 1:** Introduction to regression and its statistical meaning
-  <img width="319" height="313" alt="Screenshot 2025-07-30 at 12 39 56 AM" src="https://github.com/user-attachments/assets/6c591b44-3f03-4973-b7a6-b29abd4f0cc3" />
- 
 - **Section 2:** Fitting a linear model (`lm()` usage)  
 - **Section 3:** Visualizing regression with base R and `ggplot2`  
 - **Section 4:** Interpreting coefficients  
@@ -32,6 +30,22 @@ Each section includes:
 - At least one interactive exercise
 - At least one hint and one solution
 - Code-level feedback and error-checking mindset
+
+---
+
+## 📷 Visual Demo
+
+### 🧪 Fitting the model  
+![Exercise 1](./Excercise1.png)
+
+### 📈 Plotting with regression line  
+![Exercise 2](./Excercise2.png)
+
+### 🐞 Debugging an error  
+![Exercise 3](./Excercise3.png)
+
+### 📉 Output graph  
+![Regression Graph](./Visualization.png)
 
 ---
 
