@@ -1,49 +1,41 @@
-# History files
+# R history and session files
 .Rhistory
 .Rapp.history
-
-# Session Data files
 .RData
 .RDataTmp
-
-# User-specific files
 .Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
 .Renviron
 
-# pkgdown site
+# RStudio project files
+.Rproj.user/
+*.Rproj
+
+# knitr / R Markdown artifacts
+*_cache/
+*.utf8.md
+*.knit.md
+/cache/
+
+# Package build/check artifacts (you’re not building a package, but still safe)
+*.tar.gz
+*.Rcheck/
+
+# Output vignettes and sites
+vignettes/*.html
+vignettes/*.pdf
 docs/
 
-# translation temp files
+# OAuth/token files (good hygiene)
+.httr-oauth
+rsconnect/
+
+# i18n (not used here, but harmless)
 po/*~
 
-# RStudio Connect folder
-rsconnect/
+# macOS + OS junk
+.DS_Store
+Thumbs.db
+
+# ✅ Explicitly keep tutorial images
+!images/
+!images/*.png
