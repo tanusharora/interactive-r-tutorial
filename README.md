@@ -36,16 +36,16 @@ Each section includes:
 ## 📷 Visual Demo
 
 ### 🧪 Fitting the model  
-![Exercise 1](./Excercise1.png)
+![Exercise 1](./images/Excercise1.png)
 
 ### 📈 Plotting with regression line  
-![Exercise 2](./Excercise2.png)
+![Exercise 2](./images/Excercise2.png)
 
 ### 🐞 Debugging an error  
-![Exercise 3](./Excercise3.png)
+![Exercise 3](./images/Excercise3.png)
 
 ### 📉 Output graph  
-![Regression Graph](./Visualization.png)
+![Regression Graph](./images/Visualization.png)
 
 ---
 
