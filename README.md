@@ -38,19 +38,29 @@ Each section includes:
 ## 📷 Visual Demo
 
 ### 🧪 Fitting the model  
+
 ![Exercise 1](./images/Excercise1.png)
 
+
 ### 📈 Plotting with regression line  
+
 ![Exercise 2](./images/Excercise2.png)
 
+
 ### 📉 Output graph  
+
 ![Regression Graph](./images/Visualization.png)
 
+
 ### 🐞 Debugging an error  
+
 ![Exercise 3](./images/Excercise3.png)
 
+
 ### 🐛 Debugging with Tested Function
+
 ![Exercise 4](./images/Excercise4.png)
+
 
 ---
 
