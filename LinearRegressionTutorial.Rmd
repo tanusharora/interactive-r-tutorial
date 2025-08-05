@@ -1,0 +1,72 @@
+---
+title: "Linear Regression in R"
+credits: "Tanush Arora (student no: 1010411270)"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(ggplot2)
+library(dplyr)
+# Load tested function from R/ directory
+# This function has been unit-tested with testthat (see tests/testthat/)
+source("R/calc_regression_summary.R")
+```
+
+In this tutorial, we'll learn how to fit a linear regression model using R. We'll work with the built-in `mtcars` dataset and interpret the model results.
+
+### Fit a model below (Exercise 1)
+```{r fit-model, exercise=TRUE}
+# Fit a linear model using lm()
+# Predict mpg based on wt
+# Hint: use lm(y ~ x, data = ...)
+# lm(mpg ~ wt, data = mtcars)
+# We'll use the tested, modular function instead of raw lm()
+# This ensures consistent output and leverages reusable, validated code
+calc_regression_summary(mtcars, mpg ~ wt)
+
+```
+
+
+---
+
+### Visualize Results (Exercise 2)
+
+### Plotting the model
+```{r plot-model, exercise=TRUE}
+# Use plot() or ggplot2 to visualize the relationship
+# Add a regression line
+
+# Hint: plot(mtcars$wt, mtcars$mpg), then add abline(model)
+
+model <- lm(mpg ~ wt, data = mtcars)
+plot(mtcars$wt, mtcars$mpg)
+abline(model, col = "red")
+
+```
+
+
+---
+
+### 🐞Debugging Task (Exercise 3)
+
+### Fix the broken model code
+```{r debug-model, exercise=TRUE}
+# This code is broken. Fix the error!
+lm(mpg - wt, mtcarz)
+
+# Hint: Check the formula syntax and dataset name
+lm(mpg ~ wt, data = mtcars)
+
+```
+
+### 🐛 Debugging with the Tested Function (Exercise 4)
+
+### Fix the broken function call
+```{r debug-model-tested, exercise=TRUE}
+# This call is broken — fix the inputs so the function runs!
+calc_regression_summary(mtcars, "mpg ~ wt")
+```
+
+Great work! We've fit, visualized, and debugged a linear regression model. Thinking about how R communicates errors is a key part of testing code.
