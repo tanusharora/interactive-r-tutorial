@@ -50,7 +50,7 @@ Each section includes:
 ![Exercise 3](./images/Excercise3.png)
 
 ### 🐛 Debugging with Tested Function
-![Exercise 4](./images/Exercise4.png)
+![Exercise 4](./images/Excercise4.png)
 
 ---
 
