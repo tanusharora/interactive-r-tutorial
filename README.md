@@ -4,32 +4,34 @@ This repository contains an interactive learning module built using the [`learnr
 
 ## 🎯 Project Overview
 
-This tutorial introduces users to **simple linear regression in R** using the built-in `mtcars` dataset. It is structured with:
+This tutorial introduces users to **simple linear regression in R** using the built-in `mtcars` dataset.  
+It is structured with:
 - Clear instructional sections
 - Multiple interactive code exercises
-- Guided **hints**, **solutions**, and a **debugging task**
+- Guided **hints**, **solutions**, and **debugging tasks** (base R and tested function)
 - A focus on **undergraduate user experience**
+- Modular, **unit-tested R functions** sourced from the `R/` folder
 
-It reflects core responsibilities of the R Module Tester role, such as:
+It reflects core responsibilities of the R Module Tester/RA role:
 - Providing constructive feedback on hints and progression
 - Identifying and correcting bugs in R code
-- Thinking critically from a student’s perspective
-- Revising and improving educational modules
+- Designing clearer, user-friendly error messages
+- Revising and improving educational modules with reproducibility in mind
 
 ---
 
 ## 🛠 Features & Structure
 
-- **Section 1:** Introduction to regression and its statistical meaning
-- **Section 2:** Fitting a linear model (`lm()` usage)  
+- **Section 1:** Introduction to regression and its statistical meaning  
+- **Section 2:** Fitting a linear model (using `calc_regression_summary()` function)  
 - **Section 3:** Visualizing regression with base R and `ggplot2`  
-- **Section 4:** Interpreting coefficients  
-- **Section 5:** Debugging challenge (simulate a student-side error)
+- **Section 4:** Debugging with base R `lm()` (syntax + dataset fixes)  
+- **Section 5:** Debugging with tested function (triggers custom error messages)
 
 Each section includes:
 - At least one interactive exercise
-- At least one hint and one solution
-- Code-level feedback and error-checking mindset
+- Hints and solutions
+- Focus on error handling and reproducibility
 
 ---
 
@@ -41,11 +43,14 @@ Each section includes:
 ### 📈 Plotting with regression line  
 ![Exercise 2](./images/Excercise2.png)
 
+### 📉 Output graph  
+![Regression Graph](./images/Visualization.png)
+
 ### 🐞 Debugging an error  
 ![Exercise 3](./images/Excercise3.png)
 
-### 📉 Output graph  
-![Regression Graph](./images/Visualization.png)
+### 🐛 Debugging with Tested Function
+![Exercise 4](./images/Exercise4.png)
 
 ---
 
